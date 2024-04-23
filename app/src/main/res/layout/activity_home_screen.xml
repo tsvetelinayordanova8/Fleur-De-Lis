@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeScreen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="0.1"
+
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/name"
+            android:fontFamily="@font/fredoka_one"
+            android:textSize="14pt"
+            android:layout_gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/searchButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.1"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/search_button"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="0.5">
+
+                <ImageButton
+                    android:id="@+id/genres1"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/action" />
+
+                <TextView
+                    android:id="@+id/textBook1Row1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/genreAction" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/genre2"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/classics"/>
+
+                <TextView
+                    android:id="@+id/textBook2Row1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/genreClassics"  />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/genre3"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/comic_book"/>
+
+                <TextView
+                    android:id="@+id/textBook3Row1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/genreComic_Book"  />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/genre4"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/mystery"/>
+
+                <TextView
+                    android:id="@+id/textBook4Row1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/genreMystery"  />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/genre6"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/historical_fiction"/>
+
+                <TextView
+                    android:id="@+id/textBook6Row1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/genreHistorical"  />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/genre7"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/horror"/>
+
+                <TextView
+                    android:id="@+id/textBook7Row1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/genreHorror"  />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/genre8"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/romance"/>
+
+                <TextView
+                    android:id="@+id/textBook8Row1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/genreRomance"  />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/genre5"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/fantasy"/>
+
+                <TextView
+                    android:id="@+id/textBook5Row1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/genreFantasy"  />
+            </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/genre9"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/scifi"/>
+
+            <TextView
+                android:id="@+id/textBook9Row1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amaranth"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/genreSciFi"  />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/genre10"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/biographies"/>
+
+                <TextView
+                    android:id="@+id/textBook10Row1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/genreBiographies"  />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/genre11"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/history"/>
+
+                <TextView
+                    android:id="@+id/textBook11Row1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/genreHistory"  />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/genre12"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/poetry"/>
+
+                <TextView
+                    android:id="@+id/textBook12Row1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/genrePoetry"  />
+            </LinearLayout>
+        </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/fantasyHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fredoka_one"
+        android:layout_marginStart="10dp"
+        android:layout_marginVertical="10dp"
+        android:textSize="10pt"
+        android:textColor="@color/mainColor"
+        android:text="@string/mainHeaderFantasy" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.5">
+
+                    <ImageButton
+                        android:id="@+id/fantasyBook1"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:scaleType="fitCenter"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/fantasy_book_1" />
+
+                    <TextView
+                        android:id="@+id/fantasyText1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/amaranth"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/fantasy_book_name_1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/fantasyBook2"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:scaleType="fitCenter"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/fantasy_book_2"/>
+
+                    <TextView
+                        android:id="@+id/fantasyText2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/amaranth"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/fantasy_book_name_2"  />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/fantasyBook3"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:scaleType="fitCenter"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/fantasy_book_3"/>
+
+                    <TextView
+                        android:id="@+id/fantasyText3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/amaranth"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/fantasy_book_name_3"  />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/fantasyBook4"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:scaleType="fitCenter"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/fantasy_book_4"/>
+
+                    <TextView
+                        android:id="@+id/fantasyText4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/amaranth"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/fantasy_book_name_4"  />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/fantasyBook5"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:scaleType="fitCenter"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/fantasy_book_5"/>
+
+                    <TextView
+                        android:id="@+id/fantasyText5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/amaranth"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/fantasy_book_name_5"  />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/fantasyBook6"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:scaleType="fitCenter"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/fantasy_book_6"/>
+
+                    <TextView
+                        android:id="@+id/fantasyText6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/amaranth"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/fantasy_book_name_6"  />
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+</LinearLayout>

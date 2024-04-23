@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Course_Project_2101681054</string>
+    <string name="welcomeText1">Welcome to</string>
+    <string name="name">Fleur de lis</string>
+    <string name="appDescription">Read the latest books for free!
+        Give new life to your old books by donating them in the app!</string>
+    <string name="getStarted">Get Started</string>
+    <string name="ageHeader">Choose Your Age</string>
+    <string name="ageHeader2">Select age range for better content</string>
+    <string name="age1">14–19</string>
+    <string name="age2">20–24</string>
+    <string name="age3">25–29</string>
+    <string name="age4">30–34</string>
+    <string name="age5">35–39</string>
+    <string name="age6">40–44</string>
+    <string name="age7">45–49</string>
+    <string name="age8">≥ 50</string>
+    <string name="next">Continue</string>
+    <string name="genreHeading">Choose the Book Genre You Like</string>
+    <string name="genreHeading2">Select your prefered book genre for better
+    recommendations or you can skip this step.</string>
+    <string name="genre1">Fantasy</string>
+    <string name="genre2">Horror</string>
+    <string name="genre3">Historical Fiction</string>
+    <string name="genre4">Romance</string>
+    <string name="genre5">Biography</string>
+    <string name="genre6">Science Fiction</string>
+    <string name="genre7">Classics</string>
+    <string name="genre8">Biographies</string>
+    <string name="genre9">History</string>
+    <string name="genre10">Poetry</string>
+    <string name="genre11">Graphic Novel</string>
+    <string name="genre12">LGBTQ+</string>
+    <string name="genre13">Action &amp; Adventure</string>
+    <string name="genre14">Mystery</string>
+    <string name="genre15">History</string>
+    <string name="mainBook1">Season of Storms(The Witcher, Book 6)</string>
+    <string name="mainBook2">Harry Potter and the Goblet of Fire (Harry Potter, Book 4)</string>
+    <string name="mainBook3">Fire &amp; Blood: 300 Years Before a Game of Thrones</string>
+    <string name="mainBook4">Moby Dick by Herman Melville</string>
+    <string name="mainBook5">The Women by Kristin Hannah</string>
+    <string name="mainHeaderFantasy">Recommended For You</string>
+    <string name="fantasy_book_name_1">Half the World(Book #2 in the Shattered Sea Series)</string>
+    <string name="fantasy_book_name_2">A Game of Thrones(Book #1 in the A Song of Ice and Fire Series)</string>
+    <string name="fantasy_book_name_3">Assassins Apprentice(Part of the The Farseer Trilogy (#1) Series</string>
+    <string name="fantasy_book_name_4">The Eye of the World: Book One of the Wheel of Time</string>
+    <string name="fantasy_book_name_5">Outlander(Book #1 in the Outlander Series)</string>
+    <string name="fantasy_book_name_6">House of Earth and Blood(Book #1 in the Crescent City Series)</string>
+    <string name="donatingHeader">Donating Station</string>
+    <string name="donatingHeader2">Insert your information and the information about the books you want to donate</string>
+    <string name="nameOfDonater">Name</string>
+    <string name="address">Address for picking up</string>
+    <string name="phone">Phone</string>
+    <string name="quantityBooks">Quantity of books</string>
+    <string name="additional">Additional information</string>
+    <string name="questions">Questions</string>
+    <string name="hintAdrress">Address</string>
+    <string name="hintAdditional">(Name of books… etc.)</string>
+    <string name="hintPhone">08XXXXXXXX</string>
+    <string name="hintQuantity">Quantity</string>
+    <string name="submit">Submit</string>
+    <string name="genreAction">Action and Adventure</string>
+    <string name="genreClassics">Classics</string>
+    <string name="genreComic_Book">Comic Books</string>
+    <string name="genreMystery">Detective and Mystery</string>
+    <string name="genreFantasy">Fantasy</string>
+    <string name="genreHistorical">Historical Fiction</string>
+    <string name="genreHorror">Horror</string>
+    <string name="genreRomance">Romance</string>
+    <string name="genreSciFi">Sci-Fi</string>
+    <string name="genreBiographies">Biographies</string>
+    <string name="genreHistory">History</string>
+    <string name="genrePoetry">Poetry</string>
+    <string name="classicsTitleMockingBird">To Kill a Mockingbird by Harper Lee (1960)</string>
+    <string name="classicsDescrMockingBird">A novel before its time, Harper Lee’s Pulitzer-prize 
+        winner addresses issues of race, inequality and segregation with both levity and compassion. 
+        Told through the eyes of loveable rogues Scout and Jem.</string>
+    <string name="classicsTitleGatsby">The Great Gatsby by F. Scott Fitzgerald (1925)</string>
+    <string name="classicsDescrGatsby">Jay Gatsby, the enigmatic millionaire who throws decadent parties but
+        doesn’t attend them, is one of the great characters of American literature. This is F. Scott Fitzgerald
+        at his most sparkling and devastating.</string>
+    <string name="classicsTitleMobyDick">Moby-Dick by Herman Melville (1851)</string>
+    <string name="classicsDescrMobyDick"> Every American writer since 1851 has been chasing 
+        the same whale: to somehow write a novel as epic and influential as Melville’s.</string>
+    <string name="classicsTitleToTheLight">To the Lighthouse by Virginia Woolf (1927)</string>
+    <string name="classicsDescrToTheLight">To the Lighthouse is a daring novel with little 
+        regard for rules. There’s no consistent narrator, scant dialogue and almost no plot. 
+        With everything stripped away, we’re left with a breathtaking.</string>
+    <string name="classicsTitleFrankenstein">Frankenstein by Mary Shelley (1823)</string>
+    <string name="classicsDescrFrankensein"> Written when Mary Shelley was just
+        18 years old, but don’t let that depress you. Frankenstein is a Gothic
+        masterpiece with entertaining set pieces aplenty.</string>
+    <string name="classicsTitleDracula">Dracula by Bram Stoker (1897)</string>
+    <string name="classicsDescrDracula">Bram Stokers novel is told by multiple narrators in a series
+        of diary entries, letters, newspaper articles and ships’ logs; an old folklore tale becomes a 
+        frightening reality for solicitor Jonathan Harker.</string>
+    <string name="classicsTitleLOTR">The Lord of the Rings by J. R. R. Tolkien (1954)</string>
+    <string name="classicsDescrLOTR">Perhaps the greatest story ever told, J. R. R. Tolkien’s
+        incredible trilogy of otherworldliness brought a world of hobbits, dwarves, elves and
+        orcs to life in a way never read before. </string>
+    <string name="classicsTitleMonteCristo">The Count of Monte Cristo by Alexandre</string>
+    <string name="classicsDescrMonteCristo">An epic novel by Alexandre Dumas that will have
+        you feeling all the emotions – and a prime example of the old adage that revenge is
+        a dish best served cold.</string>
+
+</resources>
